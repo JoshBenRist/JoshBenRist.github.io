@@ -8,3 +8,7 @@ footer {
     font-family: "Merriweather", serif;
     text-align: center;
 }
+
+a {
+    all: unset;
+}
