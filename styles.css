@@ -11,4 +11,30 @@ footer {
 
 a {
     all: unset;
+    padding-right: 10px;
+}
+a:hover {
+    color: red;
+}
+
+
+
+.media-tile {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin: 5px;
+
+    text-align: left;
+}
+.media-tile-top{
+    width: 45%;
+    display: inline-grid;
+}
+
+.media-tile img{
+    border-radius: 25px;
 }
