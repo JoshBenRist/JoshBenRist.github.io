@@ -1,0 +1,14 @@
+.media-tile-container{
+    background-color: red;
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 20px;
+}
+.media-tile{
+    background-color: green;
+
+    width: 200px;
+    height: 200px;
+}
