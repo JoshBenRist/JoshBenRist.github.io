@@ -1,14 +1,27 @@
+body{
+    background-color: #a3c1d4;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.top{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 .review{
     display: none;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .review.visible{
     display: block;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .media-container{
-    background-color: red;
-
     padding: 20px;
 
     display: grid;
@@ -18,7 +31,7 @@
     gap: 20px;
 }
 .tile{
-    background-color: green;
+    background-color: #7999ad;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,6 +48,8 @@
 
 .notes{
     grid-column: 1 / 3;
+    justify-content: left;
+    padding: 10px;
 }
 
 .more{
@@ -63,5 +78,10 @@
 .album-cover{
     margin: 25px;
     width: 200px;
+    height: 200px;
+}
+
+.other-cover{
+    margin: 25px;
     height: 200px;
 }

@@ -1,40 +1,20 @@
-body {
+body{
     font-family: "Merriweather", serif;
     margin-right: 30%;
     margin-left: 30%;
 }
 
-footer {
+footer{
     font-family: "Merriweather", serif;
     text-align: center;
 }
 
-a {
+a{
     all: unset;
+    cursor: pointer;
+    text-decoration: underline;
     padding-right: 10px;
 }
-a:hover {
-    color: red;
-}
-
-
-
-.media-tile {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    margin: 5px;
-
-    text-align: left;
-}
-.media-tile-top{
-    width: 45%;
-    display: inline-grid;
-}
-
-.media-tile img{
-    border-radius: 25px;
+a:hover{
+    font-weight: bold;
 }
