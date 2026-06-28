@@ -1,9 +1,10 @@
-function loadReviewFromURL() {
+
+window.addEventListener("load", (event) => {
     const params = new URLSearchParams(window.location.search);
     const review = params.get(review);
     const reviewDiv = document.getElementById(review);
     reviewDiv.classList.add('visible');
-}
+});
 
 document.querySelectorAll('.more').forEach(more => {
     more.addEventListener('click', (event) => {
