@@ -9,6 +9,13 @@ body{
     margin-right: 30%;
 }
 
+@media (max-width: 768px) {
+    .top{
+        margin-left: none;
+        margin-right: none;
+    }
+}
+
 .review{
     display: none;
     margin-left: 30%;
