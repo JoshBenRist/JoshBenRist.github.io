@@ -9,13 +9,6 @@ body{
     margin-right: 30%;
 }
 
-@media (max-width: 768px) {
-    .top{
-        margin-left: none;
-        margin-right: none;
-    }
-}
-
 .review{
     display: none;
     margin-left: 30%;
@@ -26,6 +19,21 @@ body{
     display: block;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+@media (max-width: 768px) {
+    .top{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .review{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .review.visible{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .media-container{
